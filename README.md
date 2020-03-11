@@ -1,2 +1,2 @@
-# modgov
-Development site for Rotherham Modgov Reverse CMS
+# moderngov
+Development site for Rotherham Moderngov Reverse CMS
