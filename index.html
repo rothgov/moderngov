@@ -1,446 +1,364 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-  <title>{pagetitle} - Rotherham Council</title>
-  <meta content="ie=edge" http-equiv="x-ua-compatible" />
-  <meta content="width=device-width, initial-scale=1" name="viewport" />
-  <link
-    href="https://fonts.googleapis.com/css?family=Josefin+Sans:700|Muli:400,600,700&display=swap"
-    rel="stylesheet"
-  />
-  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://rothgov.github.io/moderngov/images/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="https://rothgov.github.io/moderngov/images/favicon-16x16.png">
-<link rel="manifest" href="https://rothgov.github.io/moderngov/images/site.webmanifest">
-<link rel="mask-icon" href="https://rothgov.github.io/moderngov/images/safari-pinned-tab.svg" color="#002554">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="theme-color" content="#ffffff">
-  <link href="https://rothgov.github.io/moderngov/css/orbit.css" rel="stylesheet" />
-  <meta content="2 days" name="revisit-after" />
-  <meta content="index,follow" name="robots" />
-  <meta content="" name="author" />
-  <meta content="" name="keywords" />
-  <meta content="" name="description" />
-  <meta content="" property="dcterms:creator" />
-  <meta content="" property="dcterms:rightsHolder" />
-  <meta content="" property="dcterms:coverage" />
-  <meta content="" property="dcterms:identifier" />
-  <meta content="" property="dcterms:publisher" />
-  <meta content="" property="dcterms:subject" />
-  <meta content="" property="dcterms:description" />
-  <meta content="Prototypes" property="dcterms:title" />
-  <meta content="text/html" property="dcterms:format" />
-  <meta content="en" property="dcterms:language" />
-  <meta content="Rotherham Council - Meetings, agendas and minutes" property="og:title" />
-  <meta content="Rotherham Council - Meetings, agendas and minutes" property="og:site_name" />
-  <meta content="website" property="og:type" />
-  <meta content="" property="og:url" />
-  <meta content="https://rothgov.github.io/moderngov/images/site-logo.svg" property="og:image" />
-  <meta content="Rotherham Council - Meetings, agendas and minutes" property="og:image:alt" />
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-</head>
-<body class="one-column homepage-modular">
-<header class="site-header" id="top">
-<div class="container">
-<div class="identity">
-    <a href="https://www.rotherham.gov.uk" class="identity__link" title="Rotherham Metropolitan Borough Council Home Page">
-            <picture>
-                <source srcset="images/site-logo.svg" type="image/svg+xml">
-                <img src="https://rothgov.github.io/moderngov/images/site-logo.png" class="identity__logo" alt="Logo: Rotherham Metropolitan Borough Council">
-            </picture>
-        </a>
-    </div>
-                        
-    <nav class="nav nav--primary-navigation" aria-label="Main Navigation">
-        <div class="account-navigation"><a class="button button--account button--no-chevron" href="https://www.rotherham.gov.uk/youraccount"><span class="icon icon--inline icon-account-primary"></span><span class="button__text">Your Account</span></a></div><div class="navigation-buttons"><ul class="list list--inline"><li class="list__item"><a class="button button--primary button--icon list__link js-menu-toggle js-toggle" id="js-menu-toggle" href="#js-menu" data-a11y-toggle="js-menu" aria-controls="js-menu" aria-expanded="false"><span class="icon toggle-icon"><span class="toggle-icon__line"></span></span><span class="button__text">Menu</span></a></li></ul></div>    </nav>
-      </div>
-       <form class="site-search form form--search site-search--header" id="js-search" action="/site-search/results/" method="get">
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+        <title>{pagetitle} - Rotherham Council</title>
+        <meta content="ie=edge" http-equiv="x-ua-compatible"/>
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700|Muli:400,600,700&display=swap" rel="stylesheet"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="https://rothgov.github.io/moderngov/images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://rothgov.github.io/moderngov/images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://rothgov.github.io/moderngov/images/favicon-16x16.png">
+        <link rel="manifest" href="https://rothgov.github.io/moderngov/images/site.webmanifest">
+        <link rel="mask-icon" href="https://rothgov.github.io/moderngov/images/safari-pinned-tab.svg" color="#002554">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="theme-color" content="#ffffff">
+        <link href="https://rothgov.github.io/moderngov/css/orbit.css" rel="stylesheet"/>
+        <meta content="2 days" name="revisit-after"/>
+        <meta content="index,follow" name="robots"/>
+        <meta content="" name="author"/>
+        <meta content="" name="keywords"/>
+        <meta content="" name="description"/>
+        <meta content="" property="dcterms:creator"/>
+        <meta content="" property="dcterms:rightsHolder"/>
+        <meta content="" property="dcterms:coverage"/>
+        <meta content="" property="dcterms:identifier"/>
+        <meta content="" property="dcterms:publisher"/>
+        <meta content="" property="dcterms:subject"/>
+        <meta content="" property="dcterms:description"/>
+        <meta content="Prototypes" property="dcterms:title"/>
+        <meta content="text/html" property="dcterms:format"/>
+        <meta content="en" property="dcterms:language"/>
+        <meta content="Rotherham Council - Meetings, agendas and minutes" property="og:title"/>
+        <meta content="Rotherham Council - Meetings, agendas and minutes" property="og:site_name"/>
+        <meta content="website" property="og:type"/>
+        <meta content="" property="og:url"/>
+        <meta content="https://rothgov.github.io/moderngov/images/site-logo.svg" property="og:image"/>
+        <meta content="Rotherham Council - Meetings, agendas and minutes" property="og:image:alt"/>
+    </head>
+    <body class="one-column homepage-modular">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
 
-      <div class="container">
-<div class="form__control">
-<label class="form__label visually-hidden" for="search-site-header">
-        Search this site
-    </label>
+        <!-- Modern.Gov Settings
+                                {settings
+                                (breadcrumb-before-item:</li>)
+                                (breadcrumb-after-item:</li>)
+                                (breadcrumb-divider:)
+                                (nav-parent-start: <div class="list-group">)
+                                (nav-parent-end: </div>)
+                                (nav-before-item: )
+                                (nav-after-item: )
+                                (nav-normal-class: list-group-item)
+                                (nav-active-class: list-group-item active)
+                                }
+                                 -->
+            <header class="site-header" id="top"> <div class="container">
+                <div class="identity">
+                    <a href="https://www.rotherham.gov.uk" class="identity__link" title="Rotherham Metropolitan Borough Council Home Page">
+                        <picture>
+                            <source srcset="https://rothgov.github.io/moderngov/images/site-logo.svg" type="image/svg+xml">
+                            <img src="https://rothgov.github.io/moderngov/images/site-logo.png" class="identity__logo" alt="Logo: Rotherham Metropolitan Borough Council">
+                        </picture>
+                    </a>
+                </div>
 
-    <div class="form__append-group">
-
-     <input class="form__field" type="search" size="18" maxlength="40" name="q" placeholder="Search this site" id="search-site-header">
-
-    <button class="button button--no-chevron" type="submit">
-        <span class="button__text">Search</span>
-    </button>
-        </div>
-     </div>
-                
+                <nav class="nav nav--primary-navigation" aria-label="Main Navigation">
+                    <div class="account-navigation">
+                        <a class="button button--account button--no-chevron" href="https://www.rotherham.gov.uk/youraccount">
+                            <span class="icon icon--inline icon-account-primary"></span>
+                            <span class="button__text">Your Account</span>
+                        </a>
+                    </div>
+                    <div class="navigation-buttons">
+                        <ul class="list list--inline">
+                            <li class="list__item">
+                                <a class="button button--primary button--icon list__link js-menu-toggle js-toggle" id="js-menu-toggle" href="#js-menu" data-a11y-toggle="js-menu" aria-controls="js-menu" aria-expanded="false">
+                                    <span class="icon toggle-icon">
+                                        <span class="toggle-icon__line"></span>
+                                    </span>
+                                    <span class="button__text">Menu</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
-            <button class="visually-hidden site-search__focus-button" data-focus="js-search-toggle">View menu</button>
-        
-    </form>
-            
-        
-    </header>
-<div
-  aria-hidden="true"
-  aria-labelledby="js-menu-toggle a11y-toggle-0 js-menu-close"
-  class="menu-navigation"
-  id="js-menu"
->
-  <a
-    aria-controls="js-menu"
-    aria-expanded="false"
-    class="menu-navigation__close-fade"
-    data-a11y-toggle="js-menu"
-    href="https://design.hq.jadu.net/rotherham-2019/prototype/full-prototype.html#js-menu"
-    id="a11y-toggle-0"
-    tabindex="-1"
-    ><span class="visually-hidden">Close menu</span></a
-  >
-  <div class="menu-navigation__content">
-    <div class="menu-navigation__controls">
-      <a
-        aria-controls="js-menu"
-        aria-expanded="false"
-        class="js-menu-toggle"
-        data-a11y-toggle="js-menu"
-        href="https://design.hq.jadu.net/rotherham-2019/prototype/full-prototype.html#js-menu"
-        id="js-menu-close"
-        ><span class="icon toggle-icon"
-          ><span class="toggle-icon__line"></span
-        ></span>
-        <span class="button__text">Close</span></a
-      >
-    </div>
-    <div class="menu-navigation__list-container">
-      <ul class="list list--menu">
-        <li class="list__item">
-          <a
-            class="list__link"
-            href="https://www.rotherham.gov.uk/about-the-council"
-            >About the Council</a
-          >
-        </li>
-        <li class="list__item">
-          <a
-            class="list__link"
-            href="https://www.rotherham.gov.uk/business"
-            >Business and Economy</a
-          >
-        </li>
-        <li class="list__item">
-          <a
-            class="list__link"
-            href="https://www.rotherham.gov.uk/children"
-            >Children and Families</a
-          >
-        </li>
-        <li class="list__item">
-          <a
-            class="list__link"
-            href="https://www.rotherham.gov.uk/community"
-            >Community and Living</a
-          >
-        </li>
-        <li class="list__item">
-          <a
-            class="list__link"
-            href="https://www.rotherham.gov.uk/council-tax"
-            >Council Tax and Benefits</a
-          >
-        </li>
-        <li class="list__item">
-          <a
-            class="list__link"
-            href="https://www.rotherham.gov.uk/education"
-            >Education and Learning</a
-          >
-        </li>
-        <li class="list__item">
-          <a
-            class="list__link"
-            href="https://www.rotherham.gov.uk/environment"
-            >Environment and Waste</a
-          >
-        </li>
-        <li class="list__item">
-          <a
-            class="list__link"
-            href="https://www.rotherham.gov.uk/social-care"
-            >Health and Social Care</a
-          >
-        </li>
-        <li class="list__item">
-          <a
-            class="list__link"
-            href="https://www.rotherham.gov.uk/housing"
-            >Housing</a
-          >
-        </li>
-        <li class="list__item">
-          <a
-            class="list__link"
-            href="https://www.rotherham.gov.uk/jobs"
-            >Jobs and Careers</a
-          >
-        </li>
-        <li class="list__item">
-          <a
-            class="list__link"
-            href="https://www.rotherham.gov.uk/leisure"
-            >Leisure and Culture</a
-          >
-        </li>
-        <li class="list__item">
-          <a
-            class="list__link"
-            href="https://www.rotherham.gov.uk/planning"
-            >Planning and Development</a
-          >
-        </li>
-        <li class="list__item">
-          <a
-            class="list__link"
-            href="https://www.rotherham.gov.uk/transport"
-            >Transport and Streets</a
-          >
-        </li>
-        <li class="list__item">
-          <a
-            class="list__link"
-            href="https://www.rotherham.gov.uk/news"
-            >News</a
-          >
-        </li>
-        <li class="list__item">
-          <a
-            class="list__link"
-            href="https://www.rotherham.gov.uk/events"
-            >Events</a
-          >
-        </li>
-      </ul>
-      <button class="visually-hidden" data-focus="js-menu-close">
-        Close menu
-      </button>
-    </div>
-  </div>
-</div>
-<nav class="breadcrumb" aria-label="Breadcrumb Navigation">
-        <div class="container">
-<div class="well well-sm" id="breadcrumb-holder">
-  <ol class="breadcrumb">{breadcrumb}</ol>
-</div>
+            <form class="site-search form form--search site-search--header" id="js-search" action="/site-search/results/" method="get">
 
+                <div class="container">
+                    <div class="form__control">
+                        <label class="form__label visually-hidden" for="search-site-header">
+                            Search this site
+                        </label>
 
+                        <div class="form__append-group">
 
-</div>
-    </nav>
-    <!-- Start Main -->
+                            <input class="form__field" type="search" size="18" maxlength="40" name="q" placeholder="Search this site" id="search-site-header">
 
-<main class="site-main">
-<div class="site-content" id="content">
-<div class="container">
-<h1 class="page-heading">Meetings, agendas and minutes</h1>
-</div>
+                            <button class="button button--no-chevron" type="submit">
+                                <span class="button__text">Search</span>
+                            </button>
+                        </div>
+                    </div>
 
-<div class="page-content">
-<div class="container">
-<div class="widget-row">
-<div class="widget-width widget-width--33 widget-width-small">
-<div class="supplement supplement--navigation">
-<h2 class="supplement__heading">Sidenav</h2>           
-<ul class="list list--rich primary">
-{settings
-(breadcrumb-before-item:</li>)
-(breadcrumb-after-item:</li>)
-(breadcrumb-divider:)
-(nav-parent-start: <div class="list-group">)
-(nav-parent-end: </div>)
-(nav-before-item: )
-(nav-after-item: )
-(nav-normal-class: list-group-item)
-(nav-active-class: list-group-item active)
-}
-</ul>
-
-<nav class="col-sm-3" id="side-nav">
-  {sidenav}
-</nav>
-
-</div>
-</div>
-
-<div class="widget-width widget-width--66 widget-width-small">
-<div class="supplement supplement--navigation">
-<h2 class="supplement__heading">Content</h2>
-<ul class="list list--rich secondary">
-<div>
-{content}
-</div>
-</ul>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-</div>
-</main>
-
-<!-- End Main -->
-<div class="widget-row widget-row--flush widget-row--full-width">
-      <div class="widget-width widget-width--100 widget-width--large">
-        <div class="widget widget--featured_page_links " data-widget-id="992" data-widget-name="featured_page_links">
-          <div class="featured-page-links">
-          <div class="container">
-            <h2 class="widget_heading">More from your Council</h2>
-              <div class="featured-page-links__grid">
-                <div class="featured-page-links__grid-cell">
-                  <img class="featured-page-links__image" src="https://rothgov.github.io/moderngov/images/20-zone.jpg" alt="Consultations and Surveys">
-                  <div class="featured-page-links__meta">
-                    <h3 class="featured-news__title">
-                      Consultations and Surveys
-                    </h3>
-                    <a class="featured-news__link" href="#?featured-page-1">Have your say</a>
-                  </div>
                 </div>
-                <div class="featured-page-links__grid-cell">
-                  <img class="featured-page-links__image" src="https://rothgov.github.io/moderngov/images/20-zone.jpg" alt="Meeting Webcasts">
-                  <div class="featured-page-links__meta">
-                    <h3 class="featured-news__title">
-                      Meeting Webcasts
-                    </h3>
-                    <a class="featured-news__link" href="#?featured-page-2">View Webcast library</a>
-                  </div>
+                <button class="visually-hidden site-search__focus-button" data-focus="js-search-toggle">View menu</button>
+
+            </form>
+
+
+        </header>
+        <div aria-hidden="true" aria-labelledby="js-menu-toggle a11y-toggle-0 js-menu-close" class="menu-navigation" id="js-menu">
+            <a aria-controls="js-menu" aria-expanded="false" class="menu-navigation__close-fade" data-a11y-toggle="js-menu" href="https://design.hq.jadu.net/rotherham-2019/prototype/full-prototype.html#js-menu" id="a11y-toggle-0" tabindex="-1">
+                <span class="visually-hidden">Close menu</span>
+            </a>
+            <div class="menu-navigation__content">
+                <div class="menu-navigation__controls">
+                    <a aria-controls="js-menu" aria-expanded="false" class="js-menu-toggle" data-a11y-toggle="js-menu" href="https://design.hq.jadu.net/rotherham-2019/prototype/full-prototype.html#js-menu" id="js-menu-close">
+                        <span class="icon toggle-icon">
+                            <span class="toggle-icon__line"></span>
+                        </span>
+                        <span class="button__text">Close</span>
+                    </a>
                 </div>
-                <div class="featured-page-links__grid-cell">
-                  <img class="featured-page-links__image" src="https://rothgov.github.io/moderngov/images/20-zone.jpg" alt="The Mayor of Rotherham">
-                  <div class="featured-page-links__meta">
-                    <h3 class="featured-news__title">
-                      The Mayor of Rotherham
-                    </h3>
-                    <a class="featured-news__link" href="#?featured-page-1">Invite the Mayor</a>
-                  </div>
+                <div class="menu-navigation__list-container">
+                    <ul class="list list--menu">
+                        <li class="list__item">
+                            <a class="list__link" href="https://www.rotherham.gov.uk/about-the-council">About the Council</a>
+                        </li>
+                        <li class="list__item">
+                            <a class="list__link" href="https://www.rotherham.gov.uk/business">Business and Economy</a>
+                        </li>
+                        <li class="list__item">
+                            <a class="list__link" href="https://www.rotherham.gov.uk/children">Children and Families</a>
+                        </li>
+                        <li class="list__item">
+                            <a class="list__link" href="https://www.rotherham.gov.uk/community">Community and Living</a>
+                        </li>
+                        <li class="list__item">
+                            <a class="list__link" href="https://www.rotherham.gov.uk/council-tax">Council Tax and Benefits</a>
+                        </li>
+                        <li class="list__item">
+                            <a class="list__link" href="https://www.rotherham.gov.uk/education">Education and Learning</a>
+                        </li>
+                        <li class="list__item">
+                            <a class="list__link" href="https://www.rotherham.gov.uk/environment">Environment and Waste</a>
+                        </li>
+                        <li class="list__item">
+                            <a class="list__link" href="https://www.rotherham.gov.uk/social-care">Health and Social Care</a>
+                        </li>
+                        <li class="list__item">
+                            <a class="list__link" href="https://www.rotherham.gov.uk/housing">Housing</a>
+                        </li>
+                        <li class="list__item">
+                            <a class="list__link" href="https://www.rotherham.gov.uk/jobs">Jobs and Careers</a>
+                        </li>
+                        <li class="list__item">
+                            <a class="list__link" href="https://www.rotherham.gov.uk/leisure">Leisure and Culture</a>
+                        </li>
+                        <li class="list__item">
+                            <a class="list__link" href="https://www.rotherham.gov.uk/planning">Planning and Development</a>
+                        </li>
+                        <li class="list__item">
+                            <a class="list__link" href="https://www.rotherham.gov.uk/transport">Transport and Streets</a>
+                        </li>
+                        <li class="list__item">
+                            <a class="list__link" href="https://www.rotherham.gov.uk/news">News</a>
+                        </li>
+                        <li class="list__item">
+                            <a class="list__link" href="https://www.rotherham.gov.uk/events">Events</a>
+                        </li>
+                    </ul>
+                    <button class="visually-hidden" data-focus="js-menu-close">
+                        Close menu
+                    </button>
                 </div>
-                <div class="featured-page-links__grid-cell">
-                  <img class="featured-page-links__image" src="https://rothgov.github.io/moderngov/images/20-zone.jpg" alt="Rotherham Town Hall">
-                  <div class="featured-page-links__meta">
-                    <h3 class="featured-news__title">
-                      Rotherham Town Hall
-                    </h3>
-                    <a class="featured-news__link" href="#?featured-page-2">Find out more</a>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-<footer class="site-footer">
-  <div class="newsletter-signup">
+
+        <nav class="breadcrumb" aria-label="Breadcrumb Navigation">
+            <div class="container">
+                <div class="well well-sm" id="breadcrumb-holder">
+                    <ol class="list list--breadcrumb breadcrumb">{breadcrumb}</ol>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Start Main -->
+
+        <main class="site-main">
+            <div class="site-content" id="content">
+                <div class="container">
+                    <h1 class="page-heading">{pagetitle}</h1>
+                </div>
+
+                <div class="page-content">
+                    <div class="container">
+                        <div class="widget-row">
+                            <div class="widget-width widget-width--33 widget-width-small">
+                                <div class="supplement supplement--navigation">
+                                    <h2 class="supplement__heading">Your Council</h2>
+                                    <ul class="list list--rich primary"></ul>
+
+                                    <nav class="col-sm-3" id="side-nav">
+                                        {sidenav}
+                                    </nav>
+
+                                </div>
+                            </div>
+
+                            <div class="widget-width widget-width--66 widget-width-small">
+                                {content}
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+        <!-- End Main -->
+        <div class="widget-row widget-row--flush widget-row--full-width">
+            <div class="widget-width widget-width--100 widget-width--large">
+                <div class="widget widget--featured_page_links " data-widget-id="992" data-widget-name="featured_page_links">
+                    <div class="featured-page-links">
+                        <div class="container">
+                            <h2 class="widget_heading">More from your Council</h2>
+                            <div class="featured-page-links__grid">
+                                <div class="featured-page-links__grid-cell">
+                                    <img class="featured-page-links__image" src="https://rothgov.github.io/moderngov/images/20-zone.jpg" alt="Consultations and Surveys">
+                                    <div class="featured-page-links__meta">
+                                        <h3 class="featured-news__title">
+                                            Consultations and Surveys
+                                        </h3>
+                                        <a class="featured-news__link" href="#?featured-page-1">Have your say</a>
+                                    </div>
+                                </div>
+                                <div class="featured-page-links__grid-cell">
+                                    <img class="featured-page-links__image" src="https://rothgov.github.io/moderngov/images/20-zone.jpg" alt="Meeting Webcasts">
+                                    <div class="featured-page-links__meta">
+                                        <h3 class="featured-news__title">
+                                            Meeting Webcasts
+                                        </h3>
+                                        <a class="featured-news__link" href="#?featured-page-2">View Webcast library</a>
+                                    </div>
+                                </div>
+                                <div class="featured-page-links__grid-cell">
+                                    <img class="featured-page-links__image" src="https://rothgov.github.io/moderngov/images/20-zone.jpg" alt="The Mayor of Rotherham">
+                                    <div class="featured-page-links__meta">
+                                        <h3 class="featured-news__title">
+                                            The Mayor of Rotherham
+                                        </h3>
+                                        <a class="featured-news__link" href="#?featured-page-1">Invite the Mayor</a>
+                                    </div>
+                                </div>
+                                <div class="featured-page-links__grid-cell">
+                                    <img class="featured-page-links__image" src="https://rothgov.github.io/moderngov/images/20-zone.jpg" alt="Rotherham Town Hall">
+                                    <div class="featured-page-links__meta">
+                                        <h3 class="featured-news__title">
+                                            Rotherham Town Hall
+                                        </h3>
+                                        <a class="featured-news__link" href="#?featured-page-2">Find out more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="site-footer">
+            <div class="newsletter-signup">
                 <div class="container container--narrow">
                     <h2 class="newsletter-signup__heading">Stay connected</h2>
                     <a class="button button--primary newsletter-signup__button" href="https://www.rotherham.gov.uk/stay-connected">Sign up for our newsletter</a>
                 </div>
             </div>
-  <div class="container">
-    <div class="identity identity--footer">
-      <a class="identity__link" href="#" title="Rotherham Council Home Page">
-        <picture>
-          <source srcset="images/site-logo-footer.svg" type="image/svg+xml" />
-          <img
-            alt="Footer Logo: Rotherham Council"
-            class="identity__logo"
-            src="https://rothgov.github.io/moderngov/images/site-logo-footer.png"
-        /></picture>
+            <div class="container">
+                <div class="identity identity--footer">
+                    <a class="identity__link" href="#" title="Rotherham Council Home Page">
+                        <picture>
+                            <source srcset="https://rothgov.github.io/moderngov/images/site-logo-footer.svg" type="image/svg+xml"/>
+                            <img alt="Footer Logo: Rotherham Council" class="identity__logo" src="https://rothgov.github.io/moderngov/images/site-logo-footer.png"/></picture>
 
-        <span class="visually-hidden">Rotherham Council</span>
-      </a>
-    </div>
-  </div>
-  <div class="container">
-    <nav
-      aria-label="Footer Navigation"
-      class="footer-navigation site-footer__group"
-    >
-      <ul class="list">
-        <li class="list__item">
-          <a class="list__link" href="https://www.rotherham.gov.uk/terms">Terms and disclaimer</a>
-        </li>
-        <li class="list__item">
-          <a class="list__link" href="https://www.rotherham.gov.uk/accessibility-statement">Accessibility statement</a>
-        </li>
-        <li class="list__item">
-          <a class="list__link" href="https://www.rotherham.gov.uk/website-statistics">Website statistics</a>
-        </li>
-        <li class="list__item">
-          <a class="list__link" href="https://www.rotherham.gov.uk/site-map">Site map</a>
-        </li>
-        <li class="list__item">
-          <a class="list__link" href="https://www.rotherham.gov.uk/contact">Contact us</a>
-        </li>
-        <li class="list__item">
-          <a class="list__link" href="https://www.rotherham.gov.uk/location">Location</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-  <div class="container">
-    <div class="footer-social">
-      <ul class="list">
-        <li class="list__item">
-          <a class="footer-social__logo" href="#"
-            ><img alt="Facebook logo" src="https://rothgov.github.io/moderngov/images/logo-facebook.svg"
-          /></a>
-        </li>
-        <li class="list__item">
-          <a class="footer-social__logo" href="#"
-            ><img alt="Twitter logo" src="https://rothgov.github.io/moderngov/images/logo-twitter.svg"
-          /></a>
-        </li>
-        <li class="list__item">
-          <a class="footer-social__logo" href="#"
-            ><img alt="YouTube logo" src="https://rothgov.github.io/moderngov/images/logo-youtube.svg"
-          /></a>
-        </li>
-        <li class="list__item">
-          <a class="footer-social__logo" href="#"
-            ><img alt="Instagram logo" src="https://rothgov.github.io/moderngov/images/logo-instagram.svg"
-          /></a>
-        </li>
-        <li class="list__item">
-          <a class="footer-social__logo" href="#"
-            ><img alt="LinkedIn logo" src="https://rothgov.github.io/moderngov/images/logo-linkedin.svg"
-          /></a>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <div class="container">
-      <p class="site-footer__text site-footer__rights">
-        All content &copy; 2020 Rotherham Metropolitan Borough Council. All Rights Reserved.
-      </p>
-      <p class="site-footer__text">
-        Handcrafted by
-        <a href="https://www.spacecraft.co.uk/"><strong>Spacecraft</strong></a
-        >.
-      </p>
-      <p class="site-footer__text">
-        Powered by <a href="http://www.jadu.net/"><strong>Jadu</strong></a
-        >.
-      </p>
-    </div>
-  </div>
-</footer>
-<link rel="stylesheet" href="https://rothgov.github.io/moderngov/css/icons.data.svg.css">
+                        <span class="visually-hidden">Rotherham Council</span>
+                    </a>
+                </div>
+            </div>
+            <div class="container">
+                <nav aria-label="Footer Navigation" class="footer-navigation site-footer__group">
+                    <ul class="list">
+                        <li class="list__item">
+                            <a class="list__link" href="https://www.rotherham.gov.uk/terms">Terms and disclaimer</a>
+                        </li>
+                        <li class="list__item">
+                            <a class="list__link" href="https://www.rotherham.gov.uk/accessibility-statement">Accessibility statement</a>
+                        </li>
+                        <li class="list__item">
+                            <a class="list__link" href="https://www.rotherham.gov.uk/website-statistics">Website statistics</a>
+                        </li>
+                        <li class="list__item">
+                            <a class="list__link" href="https://www.rotherham.gov.uk/site-map">Site map</a>
+                        </li>
+                        <li class="list__item">
+                            <a class="list__link" href="https://www.rotherham.gov.uk/contact">Contact us</a>
+                        </li>
+                        <li class="list__item">
+                            <a class="list__link" href="https://www.rotherham.gov.uk/location">Location</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="container">
+                <div class="footer-social">
+                    <ul class="list">
+                        <li class="list__item">
+                            <a class="footer-social__logo" href="#"><img alt="Facebook logo" src="https://rothgov.github.io/moderngov/images/logo-facebook.svg"/></a>
+                        </li>
+                        <li class="list__item">
+                            <a class="footer-social__logo" href="#"><img alt="Twitter logo" src="https://rothgov.github.io/moderngov/images/logo-twitter.svg"/></a>
+                        </li>
+                        <li class="list__item">
+                            <a class="footer-social__logo" href="#"><img alt="YouTube logo" src="https://rothgov.github.io/moderngov/images/logo-youtube.svg"/></a>
+                        </li>
+                        <li class="list__item">
+                            <a class="footer-social__logo" href="#"><img alt="Instagram logo" src="https://rothgov.github.io/moderngov/images/logo-instagram.svg"/></a>
+                        </li>
+                        <li class="list__item">
+                            <a class="footer-social__logo" href="#"><img alt="LinkedIn logo" src="https://rothgov.github.io/moderngov/images/logo-linkedin.svg"/></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <p class="site-footer__text site-footer__rights">
+                        All content &copy; 2020 Rotherham Metropolitan Borough Council. All Rights Reserved.
+                    </p>
+                    <p class="site-footer__text">
+                        Handcrafted by
+                        <a href="https://www.spacecraft.co.uk/">
+                            <strong>Spacecraft</strong>
+                        </a>.
+                    </p>
+                    <p class="site-footer__text">
+                        Powered by
+                        <a href="http://www.jadu.net/">
+                            <strong>Jadu</strong>
+                        </a>.
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <link rel="stylesheet" href="https://rothgov.github.io/moderngov/css/icons.data.svg.css">
 
-            <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-            <script>window.jQuery || document.write('<script src="https://rothgov.github.io/moderngov/js/jquery.min.js"><\/script>');</script>
+        <script>
+            window.jQuery || document.write('<script src="https://rothgov.github.io/moderngov/js/jquery.min.js"><\/script>');
+        </script>
 
-            <script src="https://rothgov.github.io/moderngov/js/orbit.js"></script>
-</body>
+        <script src="https://rothgov.github.io/moderngov/js/orbit.js"></script>
+    </body>
 </html>
