@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-  <title>Rotherham Council - Meetings, agendas and minutes</title>
+  <title>{pagetitle} - Rotherham Council</title>
   <meta content="ie=edge" http-equiv="x-ua-compatible" />
   <meta content="width=device-width, initial-scale=1" name="viewport" />
   <link
@@ -227,9 +227,12 @@
 </div>
 <nav class="breadcrumb" aria-label="Breadcrumb Navigation">
         <div class="container">
-<ol class="list list--breadcrumb">
-  {breadcrumb}
-  </ol>
+<div class="well well-sm" id="breadcrumb-holder">
+  <ol class="breadcrumb">{breadcrumb}</ol>
+</div>
+
+
+
 </div>
     </nav>
     <!-- Start Main -->
@@ -247,8 +250,23 @@
 <div class="supplement supplement--navigation">
 <h2 class="supplement__heading">Sidenav</h2>           
 <ul class="list list--rich primary">
-{sidenav}
+{settings
+(breadcrumb-before-item:</li>)
+(breadcrumb-after-item:</li>)
+(breadcrumb-divider:)
+(nav-parent-start: <div class="list-group">)
+(nav-parent-end: </div>)
+(nav-before-item: )
+(nav-after-item: )
+(nav-normal-class: list-group-item)
+(nav-active-class: list-group-item active)
+}
 </ul>
+
+<nav class="col-sm-3" id="side-nav">
+  {sidenav}
+</nav>
+
 </div>
 </div>
 
@@ -256,7 +274,9 @@
 <div class="supplement supplement--navigation">
 <h2 class="supplement__heading">Content</h2>
 <ul class="list list--rich secondary">
+<div>
 {content}
+</div>
 </ul>
 </div>
 </div>
