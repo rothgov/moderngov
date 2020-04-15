@@ -40,18 +40,18 @@
         <!-- Global site tag (gtag.js) - Google Analytics -->
 
         <!-- Modern.Gov Settings
-                                                {settings
-                                                (breadcrumb-before-item:</li>)
-                                                (breadcrumb-after-item:</li>)
-                                                (breadcrumb-divider:)
-                                                (nav-parent-start: <div class="list-group">)
-                                                (nav-parent-end: </div>)
-                                                (nav-before-item: )
-                                                (nav-after-item: )
-                                                (nav-normal-class: list-group-item)
-                                                (nav-active-class: list-group-item active)
-                                                }
-                                                 -->
+                                                                                                        {settings
+                                                                                                        (breadcrumb-before-item:</li>)
+                                                                                                        (breadcrumb-after-item:</li>)
+                                                                                                        (breadcrumb-divider:)
+                                                                                                        (nav-parent-start: <div class="list-group">)
+                                                                                                        (nav-parent-end: </div>)
+                                                                                                        (nav-before-item: )
+                                                                                                        (nav-after-item: )
+                                                                                                        (nav-normal-class: list-group-item)
+                                                                                                        (nav-active-class: list-group-item active)
+                                                                                                        }
+                                                                                                         -->
             <header class="site-header" id="top"> <div class="container">
                 <div class="identity">
                     <a href="https://www.rotherham.gov.uk" class="identity__link" title="Rotherham Metropolitan Borough Council Home Page">
@@ -189,7 +189,7 @@
         <main class="site-main">
             <div class="site-content" id="content">
                 <div class="container">
-                    <h1 class="page-heading">{pagetitle}</h1>
+                    <h1 class="page-heading"></h1>
                 </div>
 
                 <div class="page-content">
@@ -198,13 +198,17 @@
                             <div class="widget-width widget-width--33 widget-width-small">
                                 <div class="supplement supplement--navigation">
                                     <h2 class="supplement__heading">Your Council</h2>
-                                    <ul class="list list--rich primary"></ul>
 
                                     <nav class="col-sm-3" id="side-nav">
-                                        {sidenav}
-                                    </nav>
+                                        <ul class="list list--rich secondary">
+                                            <li class="list__item">
+                                                {sidenav}
+                                            </li>
+                                        </ul>
 
+                                    </nav>
                                 </div>
+
                             </div>
 
                             <div class="widget-width widget-width--66 widget-width-small">
