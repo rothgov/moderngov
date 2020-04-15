@@ -138,9 +138,11 @@
   </div>
   <nav aria-label="Breadcrumb Navigation" class="breadcrumb">
     <div class="container">
-      <ol class="list list--breadcrumb">
-        <li class="list__item" style="display;flex; flex-direction:row;">{breadcrumb}</li>
+    <div class="well well-sm" id="breadcrumb-holder">
+      <ol class="list list--breadcrumb breadcrumb">
+        {breadcrumb}
       </ol>
+      </div>
     </div>
   </nav>
   <main class="site-main" style="padding-top:1.5rem; border-top:solid; border-top-width:1px; border-top-color:#002554;">
