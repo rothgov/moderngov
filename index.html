@@ -36,7 +36,40 @@
   <meta content="https://rothgov.github.io/moderngov/images/site-logo.svg" property="og:image">
   <meta content="Rotherham Council - Meetings, agendas and minutes" property="og:image:alt">
 </head>
-<body>
+<body class="one-column homepage-modular">
+<!--
+{settings
+(breadcrumb-before-item:<li>)
+(breadcrumb-after-item:</li>)
+(breadcrumb-divider:)
+(nav-parent-start: <div class="list-group">)
+(nav-parent-end: </div>)
+(nav-before-item: )
+(nav-after-item: )
+(nav-normal-class: list-group-item)
+(nav-active-class: list-group-item active)
+} -->
+ <header class="site-header" id="top">
+    <div class="container">
+      <div class="identity">
+        <a class="identity__link" href="https://www.rotherham.gov.uk" title="Rotherham Metropolitan Borough Council Home Page"><picture><source srcset="https://rothgov.github.io/moderngov/images/site-logo.svg" type="image/svg+xml"><img alt="Logo: Rotherham Metropolitan Borough Council" class="identity__logo" src="https://rothgov.github.io/moderngov/images/site-logo.png"></picture></a>
+      </div>
+      
+<nav class="nav nav--primary-navigation" aria-label="Main Navigation">
+        <div class="account-navigation"><a class="button button--account button--no-chevron" href="https://www.rotherham.gov.uk/youraccount"><span class="icon icon--inline icon-account-primary"></span><span class="button__text">Your Account</span></a></div><div class="navigation-buttons"><ul class="list list--inline"><li class="list__item"><a class="button button--primary button--icon list__link js-menu-toggle js-toggle" id="js-menu-toggle" href="#js-menu" data-a11y-toggle="js-menu" aria-controls="js-menu" aria-expanded="false"><span class="icon toggle-icon"><span class="toggle-icon__line"></span></span><span class="button__text">Menu</span></a></li></ul></div>    </nav>
+
+    </div>
+    <form action="/site-search/results/" class="site-search form form--search site-search--header" id="js-search" method="get" name="js-search">
+      <div class="container">
+        <div class="form__control">
+          <label class="form__label visually-hidden" for="search-site-header">Search this site</label>
+          <div class="form__append-group">
+            <input class="form__field" id="search-site-header" maxlength="40" name="q" placeholder="Search this site" size="18" type="search"> <button class="button button--no-chevron" type="submit"><span class="button__text">Search</span></button>
+          </div>
+        </div>
+      </div><button class="visually-hidden site-search__focus-button" data-focus="js-search-toggle">View menu</button>
+    </form>
+  </header>
           <div>
       <ol>
         {breadcrumb}
