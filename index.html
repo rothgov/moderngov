@@ -5,8 +5,59 @@
   <title>{pagetitle} - Rotherham Council</title>
   <meta content="ie=edge" http-equiv="x-ua-compatible">
   <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700|Muli:400,600,700&display=swap" rel="stylesheet">
+  <link href="https://rothgov.github.io/moderngov/images/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+  <link href="https://rothgov.github.io/moderngov/images/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+  <link href="https://rothgov.github.io/moderngov/images/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+  <link href="https://rothgov.github.io/moderngov/images/site.webmanifest" rel="manifest">
+  <link href="https://rothgov.github.io/moderngov/images/safari-pinned-tab.svg" rel="mask-icon">
+  <meta content="#ffffff" name="msapplication-TileColor">
+  <meta content="#ffffff" name="theme-color">
+  <link href="https://rothgov.github.io/moderngov/css/orbit.css" rel="stylesheet">
+  <meta content="2 days" name="revisit-after">
+  <meta content="index,follow" name="robots">
+  <meta content="" name="author">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+  <meta content="" property="dcterms:creator">
+  <meta content="" property="dcterms:rightsHolder">
+  <meta content="" property="dcterms:coverage">
+  <meta content="" property="dcterms:identifier">
+  <meta content="" property="dcterms:publisher">
+  <meta content="" property="dcterms:subject">
+  <meta content="" property="dcterms:description">
+  <meta content="Prototypes" property="dcterms:title">
+  <meta content="text/html" property="dcterms:format">
+  <meta content="en" property="dcterms:language">
+  <meta content="Rotherham Council - Meetings, agendas and minutes" property="og:title">
+  <meta content="Rotherham Council - Meetings, agendas and minutes" property="og:site_name">
+  <meta content="website" property="og:type">
+  <meta content="" property="og:url">
+  <meta content="https://rothgov.github.io/moderngov/images/site-logo.svg" property="og:image">
+  <meta content="Rotherham Council - Meetings, agendas and minutes" property="og:image:alt">
 </head>
-<body>
-  <div>{sidenav}</div>
+<body class="one-column homepage-modular">
+<!--
+{settings
+(breadcrumb-before-item:<li>)
+(breadcrumb-after-item:</li>)
+(breadcrumb-divider:)
+(nav-parent-start: <div class="list-group">)
+(nav-parent-end: </div>)
+(nav-before-item: )
+(nav-after-item: )
+(nav-normal-class: list-group-item)
+(nav-active-class: list-group-item active)
+} -->
+
+          <div>
+      <ol>
+        {breadcrumb}
+      </ol>
+      </div>
+          
+          <div>{content}</div>
+
+            <div>{sidenav}</div>
 </body>
 </html>
