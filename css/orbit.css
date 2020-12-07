@@ -5295,7 +5295,6 @@ a.alert__link:visited::after {
     0 1px 0 #e2ebf1;
   font-weight: 700;
   text-decoration: none;
-  word-break: break-all;
 }
 .supplement a:not(.button):hover,
 .supplement a:not(.button):focus {
